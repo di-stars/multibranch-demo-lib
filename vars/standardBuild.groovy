@@ -4,9 +4,8 @@ def call(Map config) {
             checkout scm
         }
         stage('Main') {
-            docker.image(config.environment).inside {
-                sh config.mainScript
-            }
+            sh config.mainScript
+        
         }
         stage('Post') {
             sh config.postScript

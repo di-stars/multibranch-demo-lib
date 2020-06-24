@@ -1,5 +1,5 @@
-import com.cloudbees.hudson.plugins.modeling.*
-import com.cloudbees.hudson.plugins.*
+import com.cwctravel.hudson.plugins.extended_choice_parameter.ExtendedChoiceParameterDefinition
+
 
 def checkBox (String name, String values, String defaultValue,
               int visibleItemCnt=0, String description='', String delimiter=',') {

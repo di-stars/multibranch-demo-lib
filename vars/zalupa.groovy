@@ -1,7 +1,7 @@
 import com.cwctravel.hudson.plugins.extended_choice_parameter.ExtendedChoiceParameterDefinition
 
 
-def checkBox (String name, String values, String defaultValue,
+def zalupa (String name, String values, String defaultValue,
               int visibleItemCnt=0, String description='', String delimiter=',') {
 
     // default same as number of values

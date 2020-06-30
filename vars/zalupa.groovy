@@ -1,5 +1,10 @@
 // gavno zopa
 // ebat
+
+//
+// vova lantux or moy pozor
+//
+
 import com.cwctravel.hudson.plugins.extended_choice_parameter.ExtendedChoiceParameterDefinition
 
 
